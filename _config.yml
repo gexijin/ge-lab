@@ -1,0 +1,26 @@
+title: Ge Lab
+description: From data to insights — Dr. Xijin Ge's group
+# Preview on GitHub Pages. When switching to the custom domain:
+#   url: "https://ge-lab.org", baseurl: "", and rename CNAME.pending -> CNAME
+url: "https://gexijin.github.io"
+baseurl: "/ge-lab"
+
+theme: minima
+timezone: UTC
+permalink: /:year/:month/:day/:title/   # same URLs as the old WordPress site
+
+# Pages shown in the top menu, in order
+header_pages:
+  - publications.md
+  - software.md
+
+twitter_username: StevenXGe
+linkedin_username: steven-ge-ab016947
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - CNAME.pending

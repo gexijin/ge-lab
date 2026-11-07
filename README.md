@@ -1,0 +1,24 @@
+# ge-lab.org
+
+Static site built by GitHub Pages with Jekyll (Minima theme). There's nothing to install:
+commit a change and the site rebuilds in about a minute.
+
+## Common edits
+
+- **Add a blog post:** create `_posts/YYYY-MM-DD-short-title.md`:
+
+  ```markdown
+  ---
+  layout: post
+  title: "My post title"
+  ---
+
+  Text in Markdown...
+  ```
+
+- **Edit a page:** `index.md` (home), `software.md`, `publications.md`.
+- **Add an image:** put it in `assets/images/` and write `![alt text]({{ site.baseurl }}/assets/images/file.png)`
+  (the `{{ site.baseurl }}` prefix keeps links working on both github.io and ge-lab.org).
+- **Menu, title, social links:** `_config.yml`.
+
+Images and files from the old WordPress site are in `assets/uploads/`.
