@@ -1,0 +1,8 @@
+<div class="tools">
+  {% for tool in site.data.software %}
+  <a class="tool" href="{{ tool.url }}">
+    <span class="tool-name">{{ tool.name }} <span class="arrow">↗</span></span>
+    <span class="tool-desc">{{ tool.desc }}</span>
+  </a>
+  {% endfor %}
+</div>

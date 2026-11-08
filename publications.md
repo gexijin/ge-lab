@@ -1,7 +1,9 @@
 ---
 layout: page
-title: "Publications"
+title: Publications
 permalink: /publications/
 ---
 
-See [Google Scholar](https://scholar.google.com/citations?user=DFUSeDUAAAAJ&hl=en).
+Our full publication list is on Google Scholar.
+
+<a class="button" href="https://scholar.google.com/citations?user=DFUSeDUAAAAJ&hl=en">Google Scholar ↗</a>

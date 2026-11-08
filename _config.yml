@@ -3,17 +3,31 @@ description: From data to insights — Dr. Xijin Ge's group
 url: "https://ge-lab.org"
 baseurl: ""
 
-theme: minima
 timezone: UTC
 permalink: /:year/:month/:day/:title/   # same URLs as the old WordPress site
 
-# Pages shown in the top menu, in order
-header_pages:
-  - publications.md
-  - software.md
+# Top menu, in order
+nav:
+  - title: Software
+    url: /software/
+  - title: Publications
+    url: /publications/
+  - title: Blog
+    url: /blog/
 
-twitter_username: StevenXGe
-linkedin_username: steven-ge-ab016947
+# Footer links
+social:
+  - title: X
+    url: https://x.com/StevenXGe
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/steven-ge-ab016947
+  - title: Scholar
+    url: https://scholar.google.com/citations?user=DFUSeDUAAAAJ&hl=en
+  - title: GitHub
+    url: https://github.com/gexijin
+
+twitter:
+  username: StevenXGe
 
 plugins:
   - jekyll-feed

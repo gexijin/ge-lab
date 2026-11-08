@@ -1,6 +1,6 @@
 # ge-lab.org
 
-Static site built by GitHub Pages with Jekyll (Minima theme). There's nothing to install:
+Static site built by GitHub Pages with Jekyll (custom minimal theme in `_layouts/` and `assets/css/style.css`). There's nothing to install:
 commit a change and the site rebuilds in about a minute.
 
 ## Common edits
@@ -16,10 +16,11 @@ commit a change and the site rebuilds in about a minute.
   Text in Markdown...
   ```
 
-- **Edit a page:** `index.md` (home), `software.md`, `publications.md`.
+- **Edit a page:** `index.md` (home tagline), `publications.md`, `blog.md`.
+- **Add or edit a tool card:** `_data/software.yml` (shown on Home and Software).
 - **Add an image:** put it in `assets/images/` and write `![alt text]({{ site.baseurl }}/assets/images/file.png)`
   (the `{{ site.baseurl }}` prefix keeps links working on both github.io and ge-lab.org).
-- **Menu, title, social links:** `_config.yml`.
+- **Menu (`nav`), footer links (`social`), title:** `_config.yml`.
 - **Short link (e.g. ge-lab.org/idep):** add a file in `redirects/` like `redirects/idep.md`:
 
   ```markdown

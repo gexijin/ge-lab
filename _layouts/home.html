@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>From data<br>to insights.</h1>
+  <div class="lede">{{ content }}</div>
+</section>
+
+<section>
+  <h2 class="label">Tools</h2>
+  {% include tools.html %}
+</section>
+
+<section>
+  <h2 class="label">Writing</h2>
+  {% assign recent = site.posts | slice: 0, 5 %}
+  {% include post-list.html posts=recent %}
+  <a class="more" href="{{ '/blog/' | relative_url }}">All posts →</a>
+</section>

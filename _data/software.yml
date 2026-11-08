@@ -1,0 +1,13 @@
+# Tools shown on the home page and the Software page
+- name: iDEP
+  url: https://bioinformatics.sdstate.edu/idep/
+  desc: Analyze RNA-Seq data
+- name: ShinyGO
+  url: https://bioinformatics.sdstate.edu/go/
+  desc: Gene set enrichment analysis
+- name: RTutor.ai
+  url: https://rtutor.ai
+  desc: Chat with your data
+- name: Chatlize.ai
+  url: https://chatlize.ai
+  desc: Analyze data through ChatGPT
