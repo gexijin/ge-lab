@@ -6,8 +6,6 @@ baseurl: ""
 timezone: UTC
 permalink: /:year/:month/:day/:title/   # same URLs as the old WordPress site
 
-scholar: https://scholar.google.com/citations?user=DFUSeDUAAAAJ&hl=en
-
 # Footer links
 social:
   - title: X
