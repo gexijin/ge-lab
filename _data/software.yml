@@ -1,4 +1,4 @@
-# Tools shown on the home page and the Software page
+# Tools shown on the home page
 - name: iDEP
   url: https://bioinformatics.sdstate.edu/idep/
   desc: Analyze RNA-Seq data
@@ -8,6 +8,6 @@
 - name: RTutor.ai
   url: https://rtutor.ai
   desc: Chat with your data
-- name: Chatlize.ai
-  url: https://chatlize.ai
-  desc: Analyze data through ChatGPT
+- name: Datably.ai
+  url: https://datably.ai
+  desc: AI-powered data analysis

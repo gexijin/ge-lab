@@ -6,14 +6,7 @@ baseurl: ""
 timezone: UTC
 permalink: /:year/:month/:day/:title/   # same URLs as the old WordPress site
 
-# Top menu, in order
-nav:
-  - title: Software
-    url: /software/
-  - title: Publications
-    url: /publications/
-  - title: Blog
-    url: /blog/
+scholar: https://scholar.google.com/citations?user=DFUSeDUAAAAJ&hl=en
 
 # Footer links
 social:
