@@ -20,5 +20,13 @@ commit a change and the site rebuilds in about a minute.
 - **Add an image:** put it in `assets/images/` and write `![alt text]({{ site.baseurl }}/assets/images/file.png)`
   (the `{{ site.baseurl }}` prefix keeps links working on both github.io and ge-lab.org).
 - **Menu, title, social links:** `_config.yml`.
+- **Short link (e.g. ge-lab.org/idep):** add a file in `redirects/` like `redirects/idep.md`:
+
+  ```markdown
+  ---
+  permalink: /idep/
+  redirect_to: https://bioinformatics.sdstate.edu/idep/
+  ---
+  ```
 
 Images and files from the old WordPress site are in `assets/uploads/`.

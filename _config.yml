@@ -18,6 +18,7 @@ linkedin_username: steven-ge-ab016947
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from   # short links in redirects/
 
 exclude:
   - README.md
