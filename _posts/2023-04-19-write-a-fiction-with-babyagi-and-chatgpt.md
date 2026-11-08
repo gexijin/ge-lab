@@ -1,34 +1,34 @@
 ---
 layout: post
-title: "Write a story with BabyAGI and ChatGPT"
+title: "Write a Story with BabyAGI and ChatGPT"
 date: 2023-04-19 17:42:23 +0000
 ---
 
-This is an attempt to write a fictional story using BabyAGI. The edited story will be released later.
+This is my attempt to write a short story using [BabyAGI](https://github.com/yoheinakajima/babyagi), an autonomous AI agent, running on ChatGPT's model (gpt-3.5-turbo). Below is BabyAGI's unedited output; an edited version of the story will be released later. The run ended with an OpenAI server error, shown at the bottom.
 
-\*\*\*\*\*CONFIGURATION\*\*\*\*\*
+## BabyAGI output
 
-Name: BabyAGI
+### Configuration
 
-LLM : gpt-3.5-turbo
+- **Name:** BabyAGI
+- **LLM:** gpt-3.5-turbo
+- **Mode:** none
 
-Mode: none
+### Objective
 
-\*\*\*\*\*OBJECTIVE\*\*\*\*\*
+> Write a 500-word story about a highschool girl Oliva. The story includes dialog. She is shy and not confident about herself. She only has one friend Freya. But with grit and quick thinking, Oliva saved the day when the bus driver passed out while the school bus is moving at 70 mph. They were on their way to a tennis competition to Black City.
 
-Write a 500-word story about a highschool girl Oliva. The story includes dialog. She is shy and not confident about herself. She only has one friend Freya. But with grit and quick thinking, Oliva saved the day when the bus driver passed out while the school bus is moving at 70 mph. They were on their way to a tennis competition to Black City.
+**Initial task:** Develop a task list
 
-Initial task: Develop a task list
+### Iteration 1
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+**Task list:**
 
-• Develop a task list
+- Develop a task list
 
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
+**Next task:** Develop a task list
 
-Develop a task list
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 1. Brainstorm ideas for the story, including potential plot points and character traits for Oliva and Freya.
 
@@ -48,21 +48,18 @@ Develop a task list
 
 9. Submit the final version of the story for review and feedback.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 2
 
-• Research and incorporate details about Black City into the story, including its location, culture, and history.
+**Task list:**
 
-• Develop a subplot involving Oliva's strained relationship with her parents, who pressure her to excel academically and in tennis.
+- Research and incorporate details about Black City into the story, including its location, culture, and history.
+- Develop a subplot involving Oliva's strained relationship with her parents, who pressure her to excel academically and in tennis.
+- Write a scene where Oliva and Freya discuss their fears and insecurities, highlighting Oliva's shyness and lack of confidence.
+- Write a scene where Oliva uses her quick thinking to come up with a plan to stop the bus, showcasing her
 
-• Write a scene where Oliva and Freya discuss their fears and insecurities, highlighting Oliva's shyness and lack of confidence.
+**Next task:** Research and incorporate details about Black City into the story, including its location, culture, and history.
 
-• Write a scene where Oliva uses her quick thinking to come up with a plan to stop the bus, showcasing her
-
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Research and incorporate details about Black City into the story, including its location, culture, and history.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 After conducting research on Black City, I have gathered some information that can be incorporated into Oliva's story. Black City is a bustling metropolis located in the heart of the United States. It is known for its diverse population, vibrant culture, and rich history.
 
@@ -86,23 +83,18 @@ As they arrived at the tennis tournament, Oliva was feeling more confident than 
 
 Oliva's experience in Black City had taught her that she was capable of doing great things. She had faced her fears and come out on top. She had saved the day and won the tennis tournament. She had made new friends and experienced a new culture. Oliva had grown in ways she never thought possible, and she knew that she would never forget her time in Black City.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 3
 
-• Write a scene where Oliva reflects on her experience on the bus and how it has changed her perspective on life.
+**Task list:**
 
-• Develop a subplot involving Oliva's strained relationship with her parents, who pressure her to excel academically and in tennis.
+- Write a scene where Oliva reflects on her experience on the bus and how it has changed her perspective on life.
+- Develop a subplot involving Oliva's strained relationship with her parents, who pressure her to excel academically and in tennis.
+- Develop a subplot involving a rival tennis player who tries to sabotage Oliva's chances of winning the tournament.
+- Develop a subplot involving Freya's struggles with her own insecurities and how Oliva's bravery inspires her to overcome them.
 
-• Develop a subplot involving a rival tennis player who tries to sabotage Oliva's chances of winning the tournament.
+**Next task:** Write a scene where Oliva reflects on her experience on the bus and how it has changed her perspective on life.
 
-• Develop a subplot involving Freya's struggles with her own insecurities and how Oliva's bravery inspires her to overcome them.
-
-•
-
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Write a scene where Oliva reflects on her experience on the bus and how it has changed her perspective on life.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva sat in her room, staring out the window at the passing cars. She couldn't believe what had happened on the bus that day. It was like something out of a movie. The bus driver had passed out, and Oliva had to take control of the situation. She had never felt so scared and so alive at the same time.
 
@@ -126,21 +118,18 @@ As they boarded the bus to Black City for the tennis competition, Oliva felt a s
 
 And as the bus pulled away from the school, Oliva looked out the window, feeling grateful for the experience that had changed her life forever. She knew that she would never forget that day on the bus, and the lessons she had learned about herself and the world around her.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 4
 
-• Develop a subplot involving Oliva's strained relationship with her parents, who pressure her to excel academically and in tennis.
+**Task list:**
 
-• Write a scene where Oliva stands up to her parents and tells them that she wants to pursue her own passions instead of just focusing on academics and tennis.
+- Develop a subplot involving Oliva's strained relationship with her parents, who pressure her to excel academically and in tennis.
+- Write a scene where Oliva stands up to her parents and tells them that she wants to pursue her own passions instead of just focusing on academics and tennis.
+- Develop a subplot involving a rival tennis player who tries to sabotage Oliva's chances of winning the tournament.
+- Write a scene where Oliva and Freya encounter the rival tennis player who tries to sabotage Oliva
 
-• Develop a subplot involving a rival tennis player who tries to sabotage Oliva's chances of winning the tournament.
+**Next task:** Develop a subplot involving Oliva's strained relationship with her parents, who pressure her to excel academically and in tennis.
 
-• Write a scene where Oliva and Freya encounter the rival tennis player who tries to sabotage Oliva
-
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Develop a subplot involving Oliva's strained relationship with her parents, who pressure her to excel academically and in tennis.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva's relationship with her parents had always been strained. They were both successful lawyers who had high expectations for their daughter. They wanted her to excel academically and in tennis, just like they had in their own careers. Oliva, on the other hand, was shy and lacked confidence in herself. She didn't feel like she could live up to their expectations.
 
@@ -170,21 +159,18 @@ When Oliva returned home, she sat down with her parents and had a heart-to-heart
 
 From that day forward, Oliva felt like a weight had been lifted off her shoulders. She continued to play tennis, but she did it for herself, not for her parents. And she knew that no matter what happened, she had the grit and quick thinking to save the day if she needed to.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 5
 
-• Write a scene where Oliva reflects on her newfound confidence and how it has changed her approach to tennis.
+**Task list:**
 
-• Develop a subplot involving Oliva's relationship with her coach, who sees potential in her but also recognizes her struggles with confidence.
+- Write a scene where Oliva reflects on her newfound confidence and how it has changed her approach to tennis.
+- Develop a subplot involving Oliva's relationship with her coach, who sees potential in her but also recognizes her struggles with confidence.
+- Write a scene where Oliva and Freya have a heart-to-heart conversation about their friendship and how it has helped Oliva through tough times.
+- Develop a subplot involving Oliva's academic struggles and how she overcomes them with the help of a tutor.
 
-• Write a scene where Oliva and Freya have a heart-to-heart conversation about their friendship and how it has helped Oliva through tough times.
+**Next task:** Write a scene where Oliva reflects on her newfound confidence and how it has changed her approach to tennis.
 
-• Develop a subplot involving Oliva's academic struggles and how she overcomes them with the help of a tutor.
-
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Write a scene where Oliva reflects on her newfound confidence and how it has changed her approach to tennis.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva sat on the bleachers, watching her tennis team practice. She couldn't help but smile as she watched her teammates hit the ball back and forth. It wasn't too long ago that she would have been too nervous to even try out for the team, let alone play in a competition.
 
@@ -208,21 +194,18 @@ Oliva felt a surge of confidence and determination. She was no longer going to l
 
 As she watched her teammates practice, Oliva knew that she had a long way to go before she was a top player. But she was no longer afraid of the challenge. She was ready to take it on, one match at a time.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 6
 
-• Write a scene where Oliva overhears her parents discussing their disappointment in her academic performance and how she uses her newfound confidence to stand up for herself.
+**Task list:**
 
-• Develop a subplot involving Oliva's academic struggles and how she overcomes them with the help of a tutor.
+- Write a scene where Oliva overhears her parents discussing their disappointment in her academic performance and how she uses her newfound confidence to stand up for herself.
+- Develop a subplot involving Oliva's academic struggles and how she overcomes them with the help of a tutor.
+- Write a scene where Oliva and Freya have a heart-to-heart conversation about their friendship and how it has helped Oliva through tough times.
+- Develop a subplot involving Oliva's relationship with her coach, who sees potential in
 
-• Write a scene where Oliva and Freya have a heart-to-heart conversation about their friendship and how it has helped Oliva through tough times.
+**Next task:** Write a scene where Oliva overhears her parents discussing their disappointment in her academic performance and how she uses her newfound confidence to stand up for herself.
 
-• Develop a subplot involving Oliva's relationship with her coach, who sees potential in
-
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Write a scene where Oliva overhears her parents discussing their disappointment in her academic performance and how she uses her newfound confidence to stand up for herself.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva walked into the kitchen to grab a glass of water when she overheard her parents talking in hushed tones. She paused, trying to listen in on their conversation.
 
@@ -256,21 +239,18 @@ Oliva felt a weight lift off her shoulders. She knew her relationship with her p
 
 As she walked back to her room, she couldn't help but smile. She had come a long way from the shy, insecure girl she used to be. And she knew that with her newfound confidence, she could take on anything that came her way.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 7
 
-• Write a scene where Oliva is approached by a classmate who is struggling with their grades and asks for her help. Develop a subplot where Oliva becomes a tutor and learns the value of helping others.
+**Task list:**
 
-• Develop a subplot involving Oliva's academic struggles and how she overcomes them with the help of a tutor.
+- Write a scene where Oliva is approached by a classmate who is struggling with their grades and asks for her help. Develop a subplot where Oliva becomes a tutor and learns the value of helping others.
+- Develop a subplot involving Oliva's academic struggles and how she overcomes them with the help of a tutor.
+- Write a scene where Oliva discovers a hidden talent for a subject she previously struggled with.
+- Write a scene where Oliva is paired with a new doubles partner for a tennis
 
-• Write a scene where Oliva discovers a hidden talent for a subject she previously struggled with.
+**Next task:** Write a scene where Oliva is approached by a classmate who is struggling with their grades and asks for her help. Develop a subplot where Oliva becomes a tutor and learns the value of helping others.
 
-• Write a scene where Oliva is paired with a new doubles partner for a tennis
-
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Write a scene where Oliva is approached by a classmate who is struggling with their grades and asks for her help. Develop a subplot where Oliva becomes a tutor and learns the value of helping others.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva was sitting alone in the school cafeteria, eating her lunch and reading a book. She was used to being by herself, as she was shy and didn't have many friends. Suddenly, she heard someone calling her name.
 
@@ -322,19 +302,17 @@ As they boarded the school bus, Oliva couldn't help but think back to the day wh
 
 As the bus drove towards Black City, Oliva felt a sense of pride and accomplishment. She had come a long way from the shy, insecure girl she had once been. She had found her passion for helping others, and she knew that she had the grit and determination to succeed in whatever she chose to do.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 8
 
-• Develop a subplot where Oliva volunteers at a local community center and learns the importance of giving back to her community.
+**Task list:**
 
-• Write a scene where Oliva and Freya are discussing their plans for the upcoming school year. Oliva expresses her desire to join a club or activity but is hesitant due to her shyness. Freya encourages her to step out of her comfort zone and try something new.
+- Develop a subplot where Oliva volunteers at a local community center and learns the importance of giving back to her community.
+- Write a scene where Oliva and Freya are discussing their plans for the upcoming school year. Oliva expresses her desire to join a club or activity but is hesitant due to her shyness. Freya encourages her to step out of her comfort zone and try something new.
+- Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged
 
-• Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged
+**Next task:** Develop a subplot where Oliva volunteers at a local community center and learns the importance of giving back to her community.
 
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Develop a subplot where Oliva volunteers at a local community center and learns the importance of giving back to her community.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva had always been a shy and introverted girl, but after her heroic act on the school bus, she felt a newfound sense of confidence and purpose. She realized that she had the ability to make a difference in the world, and she wanted to use that power to help others.
 
@@ -354,19 +332,17 @@ After the fundraiser, Oliva was approached by several people who wanted to get i
 
 As Oliva and Freya boarded the bus to Black City for their tennis competition, Oliva felt a sense of purpose and fulfillment. She knew that no matter what happened on the court, she had already won by making a difference in the lives of others. And as they drove through the streets of Black City, Oliva couldn't help but feel excited to learn more about the culture and history of this vibrant community.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 9
 
-• Write a scene where Oliva and Freya are discussing their plans for the upcoming school year. Oliva expresses her desire to join a club or activity but is hesitant due to her shyness. Freya encourages her to step out of her comfort zone and try something new.
+**Task list:**
 
-• Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged.
+- Write a scene where Oliva and Freya are discussing their plans for the upcoming school year. Oliva expresses her desire to join a club or activity but is hesitant due to her shyness. Freya encourages her to step out of her comfort zone and try something new.
+- Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged.
+- Write a scene where Oliva volunteers at a local soup kitchen and meets a homeless man named Jack. Despite her
 
-• Write a scene where Oliva volunteers at a local soup kitchen and meets a homeless man named Jack. Despite her
+**Next task:** Write a scene where Oliva and Freya are discussing their plans for the upcoming school year. Oliva expresses her desire to join a club or activity but is hesitant due to her shyness. Freya encourages her to step out of her comfort zone and try something new.
 
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Write a scene where Oliva and Freya are discussing their plans for the upcoming school year. Oliva expresses her desire to join a club or activity but is hesitant due to her shyness. Freya encourages her to step out of her comfort zone and try something new.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva and Freya sat on the bleachers overlooking the tennis court, watching their teammates practice. The sun was shining brightly, and the air was filled with the sound of tennis balls being hit back and forth.
 
@@ -396,19 +372,17 @@ Freya grinned. "That's the spirit! And if you need any help, I'm here for you."
 
 As they watched their teammates continue to practice, Oliva felt a sense of excitement and nervousness building inside her. Maybe it was time to step out of her comfort zone and try something new. Who knows what she might discover about herself?
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 10
 
-• Write a scene where Oliva is on the school bus with her tennis team, on their way to a competition in Black City. Suddenly, the bus driver passes out and the bus is moving at 70 mph. Oliva uses her quick thinking to save the day and prevent a disaster.
+**Task list:**
 
-• Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged.
+- Write a scene where Oliva is on the school bus with her tennis team, on their way to a competition in Black City. Suddenly, the bus driver passes out and the bus is moving at 70 mph. Oliva uses her quick thinking to save the day and prevent a disaster.
+- Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged.
+- Write a scene where Oliva volunteers at a local soup kitchen and meets a homeless man named Jack.
 
-• Write a scene where Oliva volunteers at a local soup kitchen and meets a homeless man named Jack.
+**Next task:** Write a scene where Oliva is on the school bus with her tennis team, on their way to a competition in Black City. Suddenly, the bus driver passes out and the bus is moving at 70 mph. Oliva uses her quick thinking to save the day and prevent a disaster.
 
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Write a scene where Oliva is on the school bus with her tennis team, on their way to a competition in Black City. Suddenly, the bus driver passes out and the bus is moving at 70 mph. Oliva uses her quick thinking to save the day and prevent a disaster.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva sat nervously on the school bus, her tennis racket clutched tightly in her hand. She was on her way to the biggest competition of the year, and the pressure was starting to get to her. She glanced around at her teammates, all chatting excitedly and laughing together. Oliva wished she could be more like them, more outgoing and confident. But she was shy and introverted, and it seemed like no matter how hard she tried, she just couldn't break out of her shell.
 
@@ -432,23 +406,19 @@ From that day on, Oliva approached everything in her life with a newfound confid
 
 Looking back on that fateful journey to Black City, Oliva knew that it had changed her life forever. She had learned that even in the face of danger and adversity, she had the grit and quick thinking to save the day. And she had learned that with a little bit of courage and determination, anything was possible.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 11
 
-• Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged.
+**Task list:**
 
-• Write a scene where Oliva volunteers at a local soup kitchen and meets a homeless man named Jack.
+- Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged.
+- Write a scene where Oliva volunteers at a local soup kitchen and meets a homeless man named Jack.
+- Write a scene where Oliva helps a fellow student who is struggling with their confidence, inspired by her own journey.
+- Write a scene where Oliva reflects on her newfound confidence and determination after saving the school bus from disaster.
+- Write a scene where Oliva's tennis coach praises her
 
-• Write a scene where Oliva helps a fellow student who is struggling with their confidence, inspired by her own journey.
+**Next task:** Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged.
 
-• Write a scene where Oliva reflects on her newfound confidence and determination after saving the school bus from disaster.
-
-• Write a scene where Oliva's tennis coach praises her
-
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Write a scene where Oliva overhears a group of classmates making fun of her and feels discouraged.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva walked into the school cafeteria, feeling a bit nervous. She had just saved the day on the school bus, but that didn't change the fact that she was still shy and not very confident about herself. She looked around for Freya, her only friend, but couldn't spot her anywhere.
 
@@ -484,23 +454,19 @@ Oliva felt a warm feeling in her heart. She knew that she was lucky to have a fr
 
 As they finished their lunch, Oliva felt a sense of determination. She wouldn't let the words of some mean classmates define her. She would show them that she was more than just a shy girl. She would show them that she was a hero.
 
-\*\*\*\*\*TASK LIST\*\*\*\*\*
+### Iteration 12
 
-• Write a scene where Oliva reflects on her newfound confidence and determination after saving the school bus from disaster.
+**Task list:**
 
-• Write a scene where Oliva participates in a school talent show, despite her shyness and fear of public speaking.
+- Write a scene where Oliva reflects on her newfound confidence and determination after saving the school bus from disaster.
+- Write a scene where Oliva participates in a school talent show, despite her shyness and fear of public speaking.
+- Write a scene where Oliva stands up to a bully who is picking on a younger student.
+- Write a scene where Oliva joins a club or activity outside of her comfort zone, such as a debate team or theater group.
+- Write a scene where
 
-• Write a scene where Oliva stands up to a bully who is picking on a younger student.
+**Next task:** Write a scene where Oliva reflects on her newfound confidence and determination after saving the school bus from disaster.
 
-• Write a scene where Oliva joins a club or activity outside of her comfort zone, such as a debate team or theater group.
-
-• Write a scene where
-
-\*\*\*\*\*NEXT TASK\*\*\*\*\*
-
-Write a scene where Oliva reflects on her newfound confidence and determination after saving the school bus from disaster.
-
-\*\*\*\*\*TASK RESULT\*\*\*\*\*
+**Task result:**
 
 Oliva sat on the bleachers, watching her tennis team practice. She couldn't help but smile as she watched them hit the ball back and forth. It was hard to believe that just a few weeks ago, she was too shy to even try out for the team.
 
@@ -528,50 +494,31 @@ Her coach smiled. "I have no doubt that you will, Oliva. You've already proven t
 
 As Oliva walked away, she felt a sense of pride. She had come a long way since the day of the bus incident. She was no longer the shy, quiet girl she used to be. She was now a confident and determined young woman, ready to take on whatever challenges came her way.
 
+### The run ended with an OpenAI API error
+
+```text
 Traceback (most recent call last):
-
-File "babyagi.py", line 358, in \<module>
-
+File "babyagi.py", line 358, in <module>
 vector = get_ada_embedding(
-
 File "babyagi.py", line 170, in get_ada_embedding
-
-return openai.Embedding.create(input=\[text\], model="text-embedding-ada-002")\[
-
+return openai.Embedding.create(input=[text], model="text-embedding-ada-002")[
 File "/home/ubuntu/.local/lib/python3.8/site-packages/openai/api_resources/embedding.py", line 33, in create
-
-response = super().create(\*args, \*\*kwargs)
-
+response = super().create(*args, **kwargs)
 File "/home/ubuntu/.local/lib/python3.8/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
-
-response, \_, api_key = requestor.request(
-
+response, _, api_key = requestor.request(
 File "/home/ubuntu/.local/lib/python3.8/site-packages/openai/api_requestor.py", line 226, in request
-
-resp, got_stream = self.\_interpret_response(result, stream)
-
-File "/home/ubuntu/.local/lib/python3.8/site-packages/openai/api_requestor.py", line 620, in \_interpret_response
-
-self.\_interpret_response_line(
-
-File "/home/ubuntu/.local/lib/python3.8/site-packages/openai/api_requestor.py", line 683, in \_interpret_response_line
-
+resp, got_stream = self._interpret_response(result, stream)
+File "/home/ubuntu/.local/lib/python3.8/site-packages/openai/api_requestor.py", line 620, in _interpret_response
+self._interpret_response_line(
+File "/home/ubuntu/.local/lib/python3.8/site-packages/openai/api_requestor.py", line 683, in _interpret_response_line
 raise self.handle_error_response(
-
 openai.error.APIError: The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 018b393bd8159ed961a2132ddcccf5ad in your message.) {
-
 "error": {
-
 "message": "The server had an error while processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 018b393bd8159ed961a2132ddcccf5ad in your message.)",
-
 "type": "server_error",
-
 "param": null,
-
 "code": null
-
 }
-
 }
-
 500 {'error': {'message': 'The server had an error while processing your request. Sorry about that!
+```

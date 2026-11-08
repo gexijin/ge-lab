@@ -1,101 +1,100 @@
 ---
 layout: post
-title: "Coding with GPT-4: asking the right question"
+title: "Coding with GPT-4: Asking the Right Question"
 date: 2023-05-21 15:06:27 +0000
 ---
 
 ![]({{ site.baseurl }}/assets/uploads/2023/05/052123_1701_CodingwithG1.png)
 
-Using [Nicola Rennie](https://twitter.com/nrennie35)'s [ggflowchart](https://github.com/cran/ggflowchart) package, I created a flowchart like this one. But the colors are assigned randomly. I wanted to specify the colors for the three categories. Here is how I did it with GPT-4. I am too lazy to goofy (google) around these days.
+Using [Nicola Rennie](https://twitter.com/nrennie35)'s [ggflowchart](https://github.com/nrennie/ggflowchart) package, I created a flowchart like this one. But the colors were assigned automatically, and I wanted to specify the colors for the three categories. Here is how I did it with GPT-4. I am too lazy to goofy (google) around these days.
 
 My original code:
 
+```r
 ggflowchart::ggflowchart(graph_data, node_data, fill = Status) +
+  ggplot2::theme(legend.position = "bottom")
+```
 
-ggplot2::theme(legend.position = "bottom")
+## Round 1: The initial attempt fails
 
-# Round 1: Initial attempt failed.
+**Me:** In the Status column I have three categories: 'Error', 'Done', or 'To do'. Can I specify which color to use? I want to use red, green, and white, respectively?
 
-Me: In the Status column I have three categories: 'Error', 'Done', or 'To do'. Can I specify which color to use? I want to use red, green, and white, respectively?
+**GPT-4:**
 
-GPT-4:
-
+```r
 ggflowchart::ggflowchart(graph_data, node_data, fill = Status) +
+  scale_color_manual(values=c("Error" = "red", "Done" = "green", "To do" = "white")) +
+  ggplot2::theme(legend.position = "bottom")
+```
 
-scale_color_manual(values=c("Error" = "red", "Done" = "green", "To do" = "white")) +
+## Round 2: Letting GPT-4 fix it, without luck
 
-ggplot2::theme(legend.position = "bottom")
+**Me:** That didn't work.
 
-# Round 2: Trying to let GPT-4 fix it without luck.
+**GPT-4:** I apologize if there was any confusion. Let's correct that. Here's how you should modify your ggplot2 command to specify custom colors for your categories. It's important to remember that the variable inside aes() representing color should be a factor.
 
-Me: That didn't work.
-
-GPT-4: I apologize if there was any confusion. Let's correct that. Here's how you should modify your ggplot2 command to specify custom colors for your categories. It's important to remember that the variable inside aes() representing color should be a factor.
-
+```r
 node_data$Status <- as.factor(node_data$Status)
 
 ggflowchart::ggflowchart(graph_data, node_data, fill = Status) +
+  scale_color_manual(values=c("Error" = "red", "Done" = "green", "To do" = "white")) +
+  ggplot2::theme(legend.position = "bottom")
+```
 
-scale_color_manual(values=c("Error" = "red", "Done" = "green", "To do" = "white")) +
+This didn't solve the issue either.
 
-ggplot2::theme(legend.position = "bottom")
+## Round 3: Is something wrong with my data?
 
-This did not solve the issue either.
+**Me:** Still no luck. Give me an example using the Iris dataset. Color the three species with specified colors.
 
-# Round 3: Maybe there is something wrong with my data?
+**GPT-4:**
 
-Me: Still no luck. Give me an example using the Iris dataset. Color the three species with specified colors.
-
-GPT-4:
-
+```r
 library(ggplot2)
 
 custom_colors <- c("setosa" = "red", "versicolor" = "green", "virginica" = "blue")
 
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
+  geom_point() +
+  scale_color_manual(values = custom_colors) +
+  theme(legend.position = "bottom")
+```
 
-geom_point() +
-
-scale_color_manual(values = custom_colors) +
-
-theme(legend.position = "bottom")
-
-This code works. The colors are changed for the data points.
+This code works: the data points change color.
 
 ![]({{ site.baseurl }}/assets/uploads/2023/05/052123_1701_CodingwithG2.png)
 
-But why it does not work on my data? I realized that I was trying to change the background color, instead of the color of data points. To test this idea, I tried on the Iris data first.
+So why doesn't it work on my data? I realized I was trying to change the fill (background) color of the boxes, not the color of points or lines. To test this idea, I tried it on the Iris data first.
 
-# Round 3: Maybe I should specify the color for the background?
+## Round 4: Should I specify the fill color instead?
 
-Me: Change shape by Species. Make the specified color as fill colors.
+**Me:** Change shape by Species. Make the specified color as fill colors.
 
-GPT-4:
+**GPT-4:**
 
+```r
 library(ggplot2)
 
 custom_colors <- c("setosa" = "red", "versicolor" = "green", "virginica" = "blue")
 
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
-
-geom_point() +
-
-scale_color_manual(values = custom_colors) +
-
-theme(legend.position = "bottom")
+  geom_point() +
+  scale_color_manual(values = custom_colors) +
+  theme(legend.position = "bottom")
+```
 
 ![]({{ site.baseurl }}/assets/uploads/2023/05/052123_1701_CodingwithG3.png)
 
-Aha! It turns out that I should have used the scale_fill_manual() functions! I didn't know that function. My initial question was not specific enough.
+Aha! It turns out I should have used the `scale_fill_manual()` function, which I didn't know about. My initial question was not specific enough.
 
-Now all I have to do is to take the code I got in the first round, and change the scale_color_manual to scale_fill_manual.
+Now all I had to do was take the code from the first round and change `scale_color_manual` to `scale_fill_manual`:
 
+```r
 ggflowchart::ggflowchart(graph_data, node_data, fill = Status) +
-
-scale_fill_manual(values=c("Error" = "red", "Done" = "green", "To do" = "white")) +
-
-ggplot2::theme(legend.position = "bottom")
+  scale_fill_manual(values=c("Error" = "red", "Done" = "green", "To do" = "white")) +
+  ggplot2::theme(legend.position = "bottom")
+```
 
 ![]({{ site.baseurl }}/assets/uploads/2023/05/052123_1701_CodingwithG4.png)
 
-This gives me exactly what I wanted! I was not asking the right question at the very beginning due to my ignorance.
+This gave me exactly what I wanted! Out of ignorance, I wasn't asking the right question at the very beginning.
