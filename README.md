@@ -16,7 +16,6 @@ commit a change and the site rebuilds in about a minute.
   Text in Markdown...
   ```
 
-- **Edit the home tagline:** `index.md`.
 - **Add or edit a tool card:** `_data/software.yml`.
 - **Add an image:** put it in `assets/images/` and write `![alt text]({{ site.baseurl }}/assets/images/file.png)`
   (the `{{ site.baseurl }}` prefix keeps links working on both github.io and ge-lab.org).
